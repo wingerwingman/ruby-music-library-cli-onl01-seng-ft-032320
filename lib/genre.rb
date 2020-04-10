@@ -26,8 +26,8 @@ class Genre
   end
   
   def add_song(song)
-    if song.artist == nil 
-      song.artist = self 
+    if song.genre == nil 
+      song.genre = self 
     else 
       nil 
     end
