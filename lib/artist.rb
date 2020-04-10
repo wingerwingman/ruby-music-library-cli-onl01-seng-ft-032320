@@ -40,6 +40,20 @@ class Artist
     song
   end
   
+  def add_genre(genre)
+    if song.genre == nil 
+      song.genre = self 
+    else 
+      nil 
+    end
+    if @genre.include?(genre)
+      nil
+    else 
+      @genre << genre 
+    end 
+    genre
+  end
+  
   def genres 
     @genres
   end
