@@ -40,16 +40,8 @@ class Genre
   end
   
   def artists
-    @new_array = []
-    @genres.each do |genre|
-      if @new_array.include?(song.artist)
-        nil 
-      else 
-        @new_array << song.artist 
-      end 
-    end
-    @new_array
-  end
+    
+  end 
   
   def songs
     @songs
