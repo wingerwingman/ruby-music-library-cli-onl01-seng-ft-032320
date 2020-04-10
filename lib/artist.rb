@@ -1,9 +1,10 @@
 class Artist
-  attr_accessor :name 
+  attr_accessor :name, :has_and_belongs_to_many
   @@all = []
   
-  def initialize(name)
+  def initialize(name, song)
     @name = name 
+    @song = []
     
   end
   
