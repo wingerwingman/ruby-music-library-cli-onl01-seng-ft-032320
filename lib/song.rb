@@ -38,5 +38,13 @@ class Song
     genre.add_song(self)
   end 
   
+  def find_by_name(song) 
+    self.each do |name|
+      if name == song 
+        song 
+      end 
+    end
+  end 
+  
   
 end
