@@ -25,6 +25,9 @@ class Artist
     artist
   end
   
+  def add_song
+    Song = 
+  
   def songs
     @songs
   end
