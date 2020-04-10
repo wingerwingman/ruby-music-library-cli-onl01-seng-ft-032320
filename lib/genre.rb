@@ -25,6 +25,8 @@ class Genre
     genre
   end
   
-  def 
+  def songs
+    @songs
+  end 
   
 end
