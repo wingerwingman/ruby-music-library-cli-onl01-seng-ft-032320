@@ -22,7 +22,6 @@ class Artist
   def self.create(name)
     if song[artist].empty?
       artist = Artist.new(name) 
-      artist.save
     end
     artist
   end
