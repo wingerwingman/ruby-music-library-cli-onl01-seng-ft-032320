@@ -26,5 +26,9 @@ class Song
     song
   end
   
+  def add_song
+    
+  end 
+  
   
 end
