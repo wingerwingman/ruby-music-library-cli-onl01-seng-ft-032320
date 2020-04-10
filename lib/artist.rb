@@ -31,6 +31,12 @@ class Artist
    else 
      nil 
    end
+   if @songs.include?(song)
+     nil
+   else 
+     @song << song 
+   end 
+   song
   end
   
   def songs
