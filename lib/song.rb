@@ -20,7 +20,8 @@ class Song
   end
   
   def create
-    self.new(name).save
+    Song.new(name)
+    save
   end
   
   
