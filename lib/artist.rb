@@ -26,8 +26,10 @@ class Artist
   end
   
   def add_song(song)
-    @songs << song 
-    song.artist = self
+    if song.artist = nil
+      @songs << song 
+      song.artist = self
+    end
   end
   
   def songs
