@@ -26,7 +26,7 @@ class Artist
   end
   
   def add_song
-    Song = 
+    Song = song.name
   
   def songs
     @songs
