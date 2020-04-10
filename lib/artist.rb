@@ -26,6 +26,7 @@ class Artist
   end
   
   def add_song(song)
+    if song[:artist].empty?
       @songs << song 
       song.artist = self
     
